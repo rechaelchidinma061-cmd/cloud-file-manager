@@ -1,0 +1,21 @@
+# Python
+___pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local test files
+hello.txt
+
+Backup files
+main_backup.py
+
+# Environmet and secret files
+.env
+*.env
+
+#VS Code setings
+.vscode/
