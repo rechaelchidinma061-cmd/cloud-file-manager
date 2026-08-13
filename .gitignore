@@ -18,4 +18,5 @@ main_backup.py
 *.env
 
 #VS Code setings
-.vscode/
+.vscode/s3_manager_backup.py
+s3_manager_backup.py

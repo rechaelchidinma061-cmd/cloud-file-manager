@@ -1,21 +1,21 @@
 Markdown
 
-# chidinma's cloud file manager
+# CloudFileManager
 
-A python-based cloud fike management application built with **python, Boto3, and Amazon S3**.
+A python-based cloud file management application integrated with Amazon S3.
 
-## project Overview
+CloudFileManager is a command-line application that allows users to manage files locally and interact with cloud storage using Amazon S3. The project demonstrates practical use of python, Boto3, AWS CLI, Git, and GitHub.
 
-This project allows users to manage files using Amazon S3 directly from a python command-line application.
+## Features
 
-The application can:
-
--Create files
+-Create files locally
+-View local files 
+-Delete local files 
 -Upload files to Amazon S3
--View files stored in  S3
--Delete files in Amazon
--Download files from S3 
--Handle common AWS errors
+-Download files from Amazon S3 
+-Connect to AWS using the AWS CLI
+-Manage cloud storage through a comand-line interface
+-Verify AWS connectivity and S3 access
 
 ## Technologies Used
 
@@ -23,4 +23,6 @@ The application can:
 -Amazon S3
 -AWS CLI
 -Boto3
+-Git
 -Git/GitHub
+Visual studio code
