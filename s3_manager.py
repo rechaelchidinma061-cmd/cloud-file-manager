@@ -1,7 +1,11 @@
 import boto3
 from botocore.exceptions import ClientError
+import os
+from dotenv import load_dotenv
 
-BUCKET_NAME = "chidinma-file-manager-2026-0811"
+load_dotenv()
+
+BUCKET_NAME = os.getenv("S3_BUCKET_NAME")
 s3 = boto3.client("s3") 
 
 def upload_file(filename):
